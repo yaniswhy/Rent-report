@@ -12,16 +12,14 @@
 nav 
 {
     padding-top: 20px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 nav .row
 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(20.25rem,100% ),1fr)); /* Adjust the minmax value as per your requirement */
     gap: 20px;
 }
 @media (min-width: 767px) { 
@@ -51,7 +49,6 @@ nav .row
 }
 .team-info
 {
-    width: 80%;
     border-radius: 10px;
     background-color: rgb(243, 241, 237);
     padding: 20px;
@@ -59,7 +56,6 @@ nav .row
 .project-info
 {   
     border-radius: 10px;
-    width: 80%;
     background-color: rgb(243, 241, 237);
     padding: 20px;
 }
