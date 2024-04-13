@@ -51,7 +51,7 @@ nav .row
 }
 .team-info
 {
-    width: 100%;
+    width: 80%;
     border-radius: 10px;
     background-color: rgb(243, 241, 237);
     padding: 20px;
@@ -59,7 +59,7 @@ nav .row
 .project-info
 {   
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     background-color: rgb(243, 241, 237);
     padding: 20px;
 }
